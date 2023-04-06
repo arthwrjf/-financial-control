@@ -1,0 +1,76 @@
+.bodyHomePage {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--color-grey-5);
+
+    gap: 0.938rem;
+
+}
+
+.information__site {
+    margin-left: 16rem;
+    width: 17vw;
+    
+}
+
+.corporation__name {
+    font-size: var(--font-size-2);
+    font-weight: 900;
+    color: var(--color-grey-1);
+  
+}
+
+.corporation__name > span {
+    color: var(--color-red);
+
+}
+
+.information__site > h3 {
+    font-size: var(--font-size-1);
+    font-weight: 800;
+    color: var(--color-grey-1);
+
+}
+
+.information__site > p {
+    font-size: var(--font-siza-3);
+    font-weight: 400;
+    color: var(--color-grey-1);
+
+}
+
+.information__site > button {
+    width: 15.063rem;
+    height: 3rem;
+    margin-top: 1.75rem;
+    font-size: var(--font-siza-3);
+    font-weight: 500;
+    color: var(--color-grey-1);
+    border: 0.125rem solid var(--color-red);
+    background-color: var(--color-red);
+
+}
+
+.imgHome {
+    width: 37.063rem;
+    height: 37.063rem;
+    margin-top: 5.875rem;
+    margin-right: 16rem;
+
+}
+
+@media (max-width: 769px){
+
+    .information__site{
+        width: 143vw;
+    }
+
+    img {
+        margin: 1.313rem;
+    }
+  }

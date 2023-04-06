@@ -1,0 +1,23 @@
+.totalContainer {
+    margin-top: 1rem;
+    width: 22.688rem;
+    height: 6rem;
+    border: 0.063rem solid var(--color-grey-3);
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.totalContainer > span {
+    margin-top: 1.25rem;
+    font-size: var(--font-siza-3);
+    font-weight: 700;
+}
+
+.spanColor {
+    color: var(--color-red);
+    
+}
